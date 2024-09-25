@@ -1,0 +1,65 @@
+     /* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: red;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+   
+h2 {
+    color: blue;
+    text-align: center;
+}
+/* footer section */
+footer{background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1 rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+h4{
+background-color: rgb(232, 229, 11);
+color: white;
+height: fit-content;
+}
+i{
+background-color: rgb(250, 246, 7);
+color: white;
+height: fit-content;
+}
+/* service section */
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
